@@ -46,6 +46,50 @@ from urlparse import quote as url_quote
 from urllib.parse import quote as url_quote
 ```
 
+```aiignore
+Flask	0.12.2	3.1.0
+Flask-Admin	1.6.1	1.6.1
+Flask-Cache	0.13.1	0.13.1
+Flask-Login	0.4.1	0.6.3
+Flask-Mail	0.9.1	0.10.0
+Flask-OAuthlib	0.9.4	0.9.6
+Flask-PyMongo	0.5.1	3.0.1
+Flask-Script	2.0.6	2.0.6
+Flask-Uploads	0.2.1	0.2.1
+Flask-WTF	0.14.2	1.2.2
+Jinja2	2.10.3	3.1.5
+MarkupSafe	1.1.1	3.0.2
+WTForms	2.1	3.2.1
+Werkzeug	0.16.1	3.1.3
+Whoosh	2.7.4	2.7.4
+blinker	1.4	1.9.0
+certifi	2018.4.16	2025.1.31
+chardet	3.0.4	5.2.0
+charset-normalizer	3.4.1	3.4.1
+click	6.7	8.1.8
+colorama	0.4.6	0.4.6
+dnspython	2.7.0	2.7.0
+idna	2.7	3.10
+idna	3.10	3.10
+itsdangerous	1.1.0	2.2.0
+jieba	0.39	0.42.1
+oauthlib	2.1.0	3.2.2
+pillow	11.1.0	11.1.0
+pip	25.0.1	25.0.1
+pymongo	3.9.0	4.11.1
+pymongo	4.11.1	4.11.1
+python-dateutil	2.7.5	2.9.0.post0
+redis	3.0.1	5.2.1
+requests	2.19.0	2.32.3
+requests-oauthlib	1.1.0	2.0.0
+setuptools	68.2.0	75.8.0
+six	1.12.0	1.17.0
+six	1.17.0	1.17.0
+urllib3	2.3.0	2.3.0
+urlparser	0.1.2	0.1.2
+wheel	0.41.2	0.45.1
+```
+
 #### 使用说明
 
 1. 首次打开会自动往MongoDB新增一些默认数据（管理员账号和默认配置项），后台管理（flask-admin简单实现）: http://127.0.0.1:5000/admin
